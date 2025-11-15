@@ -26,7 +26,7 @@ This project demonstrates how to process **NCDC weather station data** using **H
 ## How to Run
 
 Part 1: Median Wind Direction (mrjob)
-python MedianTemp_MRjob.py --input /AkramMohammed/downloads/projectdata --output /path/to/output
+python MedianTemp_MRjob.py --input /projectdata --output /path/to/output
 
 Part 2: Visibility Range (PySpark)
 spark-submit RangeWeather.py
